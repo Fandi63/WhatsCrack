@@ -1,4 +1,4 @@
-import spam
+import pynput
 import os
 import random 
 os.system("figlet PINcrack")
@@ -7,4 +7,4 @@ i = (0)
 x = (5)
 y = random.randint(0,10000000)
 while i<x:
-    spam.press(y)
+    pynput.press("y")
