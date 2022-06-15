@@ -1,4 +1,4 @@
-import pyautogui as spam
+import spam
 import os
 import random 
 os.system("figlet PINcrack")
